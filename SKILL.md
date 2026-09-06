@@ -109,7 +109,7 @@ trade_ledger.csv        one row per signal/trade with all touch-side prices/reas
 validation_report.md    facts, inference, costs, controls, decision
 ```
 
-Use `references/research-contract.md` for exact columns, edge cases, and report template.
+Before choosing a family, read `references/snapshot-hypothesis-cards.md`. It supplies bounded, literature-derived starting directions that are compatible with snapshots, not pre-approved strategies. Use `references/research-contract.md` for exact columns, edge cases, and report template.
 
 ## Red flags
 

@@ -52,7 +52,7 @@ normal exit = TP or SL only
 session boundary = SESSION_FORCED, separately reported
 ```
 
-See `SKILL.md` and `references/research-contract.md` for the full contract, matched-control geometry, uncertainty reporting and rejection gates.
+Start with `references/snapshot-hypothesis-cards.md` for four bounded, literature-derived structural research directions, then use `SKILL.md` and `references/research-contract.md` for the full contract, matched-control geometry, uncertainty reporting and rejection gates.
 
 ## Verify
 
