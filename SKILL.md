@@ -47,6 +47,8 @@ Allowed observable families:
 2. **Range rejection/acceptance:** price exits a recent range and then either persists outside or re-enters; condition only on quote validity/spread/depth state already observable at entry.
 3. **Quote-quality transition:** spread/depth/staleness state changes coincident with an already-defined price-path state; test whether it adds incremental information versus the same price-path event alone.
 
+4. **Price-path statistical regime:** variance-ratio/serial-dependence state, realized-volatility compression/expansion, slope persistence/decay, or local-regression residual/curvature—used only as a matched-control event condition, never as an unconstrained indicator sweep.
+
 For each candidate, first make a descriptive event table: count by date/symbol/side, touch-side forward outcome at a few preregistered horizons, and matched controls. A structure is worth trading research only if its direction, effect size, and cross-date coverage are coherent **before** bracket tuning.
 
 Do not recycle the same continuation/reversal hypothesis under renamed thresholds. Do not reopen rejected S21–S25/P33-style lines through parameter changes.

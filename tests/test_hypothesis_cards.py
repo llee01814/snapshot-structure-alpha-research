@@ -11,6 +11,10 @@ required_cards = [
     "HC-02",  # L1 vs L2-5 shape transition
     "HC-03",  # range acceptance/re-entry conditional event
     "HC-04",  # spread-state-conditioned displacement
+    "HC-05",  # variance-ratio / serial-dependence regime
+    "HC-06",  # volatility surprise / compression-expansion regime
+    "HC-07",  # slope persistence versus decay
+    "HC-08",  # local-regression residual / curvature transition
 ]
 for card in required_cards:
     assert card in text, f"missing required research direction: {card}"
